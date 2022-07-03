@@ -1,0 +1,285 @@
+@import "primeflex/primeflex.css";
+@import "primeicons/primeicons.css";
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+@import "primereact/resources/primereact.min.css";
+@import "primeicons/primeicons.css";
+@import "https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap";
+
+body {
+    font-family: "Oswald", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(24, 23, 53);
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#root {
+    height: 100vh;
+    width: 100vw;
+    padding-bottom: 50px;
+}
+
+.w-17_5 {
+    width: 17.5%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-52_5 {
+    width: 52.5%;
+}
+
+.w-52 {
+    width: 60%;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-100 {
+    width: 100%;
+    display: block;
+}
+
+.h-25 {
+    height: 25%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-75 {
+    height: 75%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.vh-25 {
+    height: 25vh;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.vh-75 {
+    height: 75vh;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.flex-left {
+    justify-content: flex-start;
+}
+
+.flex-right {
+    justify-content: flex-end;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-center-vertical {
+    align-items: center;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+
+.flex-space-even {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.flex-space-around {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-center-content {
+    align-items: center;
+    justify-content: center;
+}
+
+.f-size15 {
+    font-size: 15px;
+}
+
+.f-size20 {
+    font-size: 20px;
+}
+
+.f-size25 {
+    font-size: 25px;
+}
+
+.f-size30 {
+    font-size: 30px;
+}
+
+.f-size35 {
+    font-size: 35px;
+}
+
+.round-text-input {
+}
+
+.m-l-10 {
+    margin-left: 10px;
+}
+
+.m-l-20 {
+    margin-left: 20px;
+}
+
+.m-l-40 {
+    margin-left: 40px;
+}
+
+.m-r-20 {
+    margin-right: 20px;
+}
+
+.m-t-5 {
+    margin-top: 5px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.m-t-50 {
+    margin-top: 50px;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.pad-0 {
+    padding: 0px;
+}
+
+.pad-20 {
+    padding: 20px;
+}
+
+.pad-t-20 {
+    padding-top: 20px;
+}
+
+.pad-b-20 {
+    padding-bottom: 20px;
+}
+
+.round-container {
+    background-color: rgb(35, 36, 72);
+    border-radius: 10px;
+}
+
+.container-big {
+    min-width: 600px;
+    max-width: 900px;
+}
+
+.container-med {
+    min-width: 400px;
+    max-width: 600px;
+}
+
+.container-small {
+    min-width: 200px;
+    max-width: 300px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    margin: 0px 20px;
+    box-shadow: inset 0 0 2px rgb(77, 123, 249);
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(95, 113, 247);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(11, 64, 125);
+}
+
+
+.icon-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.icon-button:active {
+    opacity: 0.5;
+}
+
+.opac-80 {
+    opacity: 0.8;
+}
+
+.opac-60 {
+    opacity: 0.6;
+}

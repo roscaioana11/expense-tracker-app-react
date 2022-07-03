@@ -1,0 +1,20 @@
+.total-amount-container {
+  width: 100%;
+  min-width: 200px;
+  max-width: 300px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.total-amount-container div {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.total-amount-container div i {
+  opacity: 0.7;
+}

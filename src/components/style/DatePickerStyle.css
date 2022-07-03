@@ -1,0 +1,32 @@
+.date-picker-container {
+  background-color: rgb(20, 14, 74);
+  align-items: center;
+  height: 60px;
+}
+
+.date-picker-container ul {
+  justify-content: space-evenly;
+  list-style: none;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.date-picker-container ul li {
+  list-style: none;
+  text-align: center;
+  min-width: 120px;
+  height: 100%;
+}
+
+.date-picker-container ul li:hover {
+  background-color: orange;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.date-picker-item-selected {
+  color: black;
+  background-color: orange;
+  border-radius: 10px;
+}
